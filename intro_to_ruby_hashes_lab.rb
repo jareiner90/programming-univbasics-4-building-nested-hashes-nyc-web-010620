@@ -10,7 +10,12 @@ end
 def monopoly_with_third_tier
 	{:railroads => {
 		:pieces => 4,
-		:rent_in_dollars => 200
+		:rent_in_dollars => {
+			:key1 => 1,
+			:key2 => 1,
+			:key3 => 1,
+			:key4 => 1,
+		}
 
 		}
 	}
